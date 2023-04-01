@@ -1,0 +1,56 @@
+/* right curtain */
+
+.rightcurtain{
+    margin-left: 95vh;
+}
+#curtainright{
+    float: right;
+    border: 1px solid darkred;
+    width: 120px;
+    height: 250px;
+    background-color: darkred;
+    border-bottom-left-radius: 50%;
+}
+#smallcurtainright{
+    float: right;
+    background-color:darkred;
+    box-shadow: 3px 6px 5px 0.7rem rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 220px;
+    border-bottom-left-radius: 50%;
+    }
+    #anotherSmallCurtainRight
+    {
+        float: right;
+        background-color: darkred;
+        box-shadow: 5px 5px 5px 0.7rem rgba(0, 0, 0, 0.2);
+        width: 80px;
+        height: 150px;
+        border-bottom-left-radius: 50%;
+    }
+    
+    #rightBuckle{
+        float: right;
+        /* border: 0.5px outset bisque; */
+        box-shadow: 5px -1px 5px 3px beige;
+        width: 75px;
+        height: 20px;
+        background-color: darkred;
+        border-top-left-radius:20px ;
+        border-bottom-left-radius:20px;
+    }
+    span{
+        
+        font-weight: bolder;
+        color: goldenrod;
+    }
+    
+    #smallPartRight{
+        float: right;
+        border: 2.5px solid black;
+        width: 70px;
+        height: 70px;
+        background-color: darkred;
+        border-top-left-radius:20px ;
+        border-bottom-left-radius:20px;
+    }

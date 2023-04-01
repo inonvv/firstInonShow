@@ -1,0 +1,62 @@
+/* main css style page */
+@import url(/FirsTest/styles/leftCurtain.css);
+@import url(/FirsTest/styles/rightCurtain.css);
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+.contains{
+    display: grid;
+
+
+
+    grid-template-areas:
+    "header header header"
+    "header header header"
+    "header header header"
+    " main  main  main  "
+    " main  main  main  "
+    " main  main  main  "
+        ". aside ."
+    "footer footer footer" ;
+    border: 1px solid sandybrown ;
+
+
+    
+}
+
+header
+{
+    grid-area: header;
+    background: blue;
+}
+
+main{
+    
+    grid-area: main;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    
+
+}
+
+
+aside{
+    /* width: 50vh; */
+    grid-area: aside;
+    background-color:thistle;
+}
+
+footer{
+    grid-area: footer;
+    background-color: powderblue;
+}
+
