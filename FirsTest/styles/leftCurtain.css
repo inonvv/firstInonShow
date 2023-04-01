@@ -4,6 +4,8 @@
     height: 250px;
     background-color: darkred;
     border-bottom-right-radius: 50%;
+    box-shadow: 5px 5px 5px 1px black;
+
 }
 
 #smallcurtainleft{
@@ -23,7 +25,7 @@ border-bottom-right-radius: 50%;
 }
 
 #leftbuckle{
-    box-shadow: 1px -2px 4px 1px  beige;
+    box-shadow: 3px -2px 3px 2px  beige;
     width: 75px;
     height: 20px;
     background-color: darkred;
@@ -31,6 +33,7 @@ border-bottom-right-radius: 50%;
     border-bottom-right-radius:20px;
 }
 #astrikLeft{
+    justify-items:center ;
     float: right;
     font-size: 1.25rem;   
     font-weight: bolder;
@@ -38,10 +41,30 @@ border-bottom-right-radius: 50%;
 }
 
 #smallpartleft{
-    border: 2.5px solid black;
+    box-shadow: 2px 2px 2px 2px black;
     width: 70px;
     height: 70px;
     background-color: darkred;
     border-top-right-radius:20px ;
     border-bottom-right-radius:20px;
+}
+
+#leftShade
+{
+    width: 60px;
+    height: 60px;
+    background-color: darkred;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#smallerLeftShade{
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }

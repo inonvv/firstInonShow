@@ -31,7 +31,6 @@
     
     #rightBuckle{
         float: right;
-        /* border: 0.5px outset bisque; */
         box-shadow: 5px -1px 5px 3px beige;
         width: 75px;
         height: 20px;

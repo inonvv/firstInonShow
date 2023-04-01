@@ -10,12 +10,17 @@
     margin:0;
 }
 
+#headlights{
+    width: 20px;
+    height: 20px;
+    background-color: darkgoldenrod;
+    border: double grey;
+    border-radius: 50%;
+    box-shadow: 1rem 1rem 1rem 1rem tan;
+}
 
 .contains{
     display: grid;
-
-
-
     grid-template-areas:
     "header header header"
     "header header header"
@@ -25,16 +30,15 @@
     " main  main  main  "
         ". aside ."
     "footer footer footer" ;
-    border: 1px solid sandybrown ;
-
-
-    
 }
 
 header
 {
     grid-area: header;
-    background: blue;
+    background: gainsboro;
+    padding: 10px;
+    display: inline-flex;
+    gap: 35px;
 }
 
 main{
