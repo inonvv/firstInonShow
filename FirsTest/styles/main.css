@@ -20,8 +20,38 @@ body{
     border: double grey;
     border-radius: 50%;
     box-shadow: 1rem 1rem 1rem 1rem tan;
+
+    /* animation: glow duration timing-function delay iteration-count direction fill-mode; */
+
 }
 
+
+header #headlights:nth-child(2n+1){
+    animation: glowOddLeft 5s ease-in  infinite 
+} 
+
+header #headlights:nth-child(2n+7){
+    animation: glowOddRight 5s ease-in  infinite 
+}
+
+
+header #headlights:nth-child(2n){
+    animation: glowEvenLeft 5s ease-in  infinite 
+} 
+
+header #headlights:nth-child(2n+6){
+    animation: glowEvenRight 5s ease-in  infinite 
+}
+
+
+
+
+
+
+header #headlights:nth-child(n+6){
+    box-shadow: -1rem 1rem 1rem 1rem tan;
+
+}
 .contains{
     display: grid;
     /* row-gap: 1rem ; */
@@ -38,10 +68,12 @@ header
 {
     grid-area: header;
     background: gainsboro;
-    padding: 10px;
-    display: inline-flex;
-    gap: 35px;
-}
+    padding: 5px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    place-items:center;
+    }
 
 main{
     position: relative;
