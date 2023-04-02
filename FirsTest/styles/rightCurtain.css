@@ -1,22 +1,26 @@
 /* right curtain */
 
 .rightcurtain{
-    margin-left: 95vh;
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+   align-items: end;
+    
 }
+
 #curtainright{
-    float: right;
     border: 1px solid darkred;
     width: 120px;
     height: 250px;
     background-color: darkred;
     border-bottom-left-radius: 50%;
-    box-shadow: 5px 5px 5px 1px black;
+    box-shadow: -5px 5px 5px 1px black;
 
 }
 #smallcurtainright{
     float: right;
     background-color:darkred;
-    box-shadow: 3px 6px 5px 0.7rem rgba(0, 0, 0, 0.2);
+    box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     width: 100px;
     height: 220px;
     border-bottom-left-radius: 50%;
@@ -25,31 +29,34 @@
     {
         float: right;
         background-color: darkred;
-        box-shadow: 5px 5px 5px 0.7rem rgba(0, 0, 0, 0.2);
+        box-shadow: -5px 5px 5px 0.7rem rgba(0, 0, 0, 0.2);
         width: 80px;
         height: 150px;
         border-bottom-left-radius: 50%;
     }
     
     #rightBuckle{
-        float: right;
-        box-shadow: 5px -1px 5px 3px beige;
+        
+        box-shadow: -1px 0 3px 2px beige;
         width: 75px;
         height: 20px;
         background-color: darkred;
         border-top-left-radius:20px ;
         border-bottom-left-radius:20px;
     }
-    span{
+    #astrikRight{
+            justify-items:center ;
+            float: right;
+            font-size: 1.25rem;   
+            font-weight: bolder;
+            color: goldenrod;
         
-        font-weight: bolder;
-        color: goldenrod;
     }
     
     #smallPartRight{
-        float: right;
-        border: 2.5px solid black;
-        width: 85px;
+        justify-self: flex-end;
+        box-shadow: -2px 2px 2px 2px black;
+        width: 70px;
         height: 70px;
         background-color: darkred;
         border-top-left-radius:20px ;

@@ -1,9 +1,12 @@
 /* main css style page */
 @import url(/FirsTest/styles/leftCurtain.css);
 @import url(/FirsTest/styles/rightCurtain.css);
+@import url(/FirsTest/styles/animation.css);
 
 
-
+body{
+    height: 100vh ;
+}
 
 *{
     box-sizing: border-box;
@@ -21,9 +24,8 @@
 
 .contains{
     display: grid;
+    /* row-gap: 1rem ; */
     grid-template-areas:
-    "header header header"
-    "header header header"
     "header header header"
     " main  main  main  "
     " main  main  main  "
@@ -42,25 +44,35 @@ header
 }
 
 main{
-    
+    position: relative;
+    /* overflow: hidden; */
     grid-area: main;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1;
-    
+    grid-template-columns: 1fr 8fr 1fr ;
+    grid-template-rows: 1fr;
 
 }
 
 
 aside{
-    /* width: 50vh; */
     grid-area: aside;
     background-color:thistle;
 }
 
 footer{
+
     grid-area: footer;
     background-color: powderblue;
+    
 }
 
+#upDown{
+    position:absolute;
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+    animation: movCurtain 3s linear 3s  infinite alternate;
+}
