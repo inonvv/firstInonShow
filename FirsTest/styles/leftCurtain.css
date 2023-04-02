@@ -1,3 +1,9 @@
+.leftcurtain{
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
 #curtainleft{
     border: 1px solid darkred;
     width: 120px;
@@ -25,7 +31,7 @@ border-bottom-right-radius: 50%;
 }
 
 #leftbuckle{
-    box-shadow: 3px -2px 3px 2px  beige;
+    box-shadow: 1px 0 3px 2px  beige;
     width: 75px;
     height: 20px;
     background-color: darkred;
@@ -34,7 +40,6 @@ border-bottom-right-radius: 50%;
 }
 #astrikLeft{
     justify-items:center ;
-    float: right;
     font-size: 1.25rem;   
     font-weight: bolder;
     color: goldenrod;

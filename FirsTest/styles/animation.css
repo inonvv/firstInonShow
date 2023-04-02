@@ -1,0 +1,13 @@
+@keyframes movCurtain {
+    from{
+        height: 0;
+        background-color: brown;
+    }
+    to{
+        border-radius: 20px;
+        height: 110%;
+        background-color: darkred;
+        border-bottom: 5px ridge beige;
+    }
+    
+}
