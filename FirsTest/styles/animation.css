@@ -5,9 +5,125 @@
     }
     to{
         border-radius: 20px;
-        height: 110%;
+        height: 100%;
         background-color: darkred;
         border-bottom: 5px ridge beige;
     }
+    
+}
+
+
+@keyframes glowOddLeft {
+    0%{
+        background-color: darkgoldenrod ;
+        box-shadow: 1rem 1rem 1rem 1rem tan;
+    }
+
+    25%{
+        background-color: rgb(112, 184, 11) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(135, 221, 15, 0.922);
+    }
+
+    50%{
+        background-color: rgb(17, 178, 57) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(53, 235, 99, 0.756);
+    }
+
+    75%{
+        background-color: rgb(17, 178, 167) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(17, 178, 167, 0.723);
+    }
+
+    100%{
+       background-color: darkgoldenrod ;
+        box-shadow: 1rem 1rem 1rem 1rem tan;
+    }
+    
+}
+
+@keyframes glowOddRight {
+    0%{
+        background-color: darkgoldenrod ;
+        box-shadow: -1rem 1rem 1rem 1rem tan;
+    }
+
+    25%{
+        background-color: rgb(112, 184, 11) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(135, 221, 15, 0.922);
+    }
+
+    50%{
+        background-color: rgb(17, 178, 57) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(53, 235, 99, 0.756);
+    }
+
+    75%{
+        background-color: rgb(17, 178, 167) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(17, 178, 167, 0.723);
+    }
+
+    100%{
+        background-color: darkgoldenrod ;
+        box-shadow: -1rem 1rem 1rem 1rem tan;
+    }
+    
+}
+
+/* even part********************************************* */
+@keyframes glowEvenLeft {
+    0%{
+        background-color: rgba(208, 14, 14, 0.909) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(206, 24, 11, 0.836);
+    }
+
+    25%{
+        background-color: rgb(183, 121, 4) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(219, 155, 6, 0.777);
+    }
+
+    50%{
+        background-color: rgb(188, 31, 65) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(214, 27, 83, 0.756);
+    }
+
+    75%{
+        background-color: rgb(146, 17, 178) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(132, 17, 178, 0.723);
+    }
+
+    100%{
+        background-color: rgba(208, 14, 14, 0.909) ;
+        box-shadow: 1rem 1rem 1rem 1rem rgba(206, 24, 11, 0.836);
+    }
+    
+}
+/* moshe gay btw */
+
+@keyframes glowEvenRight {
+    0%{
+        background-color: rgba(208, 14, 14, 0.909) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(206, 24, 11, 0.836);
+    }
+
+    25%{
+        background-color: rgb(183, 121, 4) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(219, 155, 6, 0.777);
+    }
+
+    50%{
+        background-color: rgb(188, 31, 65) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(214, 27, 83, 0.756);
+    }
+
+    75%{
+        background-color: rgb(146, 17, 178) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(132, 17, 178, 0.723);
+    }
+
+    100%{
+        background-color: rgba(208, 14, 14, 0.909) ;
+        box-shadow: -1rem 1rem 1rem 1rem rgba(206, 24, 11, 0.836);
+    }
+    
     
 }
